@@ -1,0 +1,107 @@
+.Person {
+	width: 370px;
+  height: 222px;
+  border-radius: 3px;
+	margin: 15px;
+	background-color:#a97b37;
+  color: #666;
+	-o-transition: 1s ease-in;
+	transition: 1s ease-in;
+	display: grid;
+	grid: 100px 300px / 3fr 1fr;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 80px auto 80px;
+	grid-column-gap: 10px;
+	grid-row-gap: 15px;
+	float: left;
+	column-count: 3;
+}
+
+#img_div {
+
+    font-size: 77px;
+    height: 76px;
+    width: 81px;
+    margin-right: -169px;
+    float: right;
+    color: #000;
+}
+
+#delete_btn {
+    color: #F00;
+    opacity: 0.5;
+    display: inline-block;
+    margin-right: 8px;
+    min-width: 12px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+#edit_btn {
+  display: inline-block;
+    opacity: 0.8;
+    margin-top: 7px;
+    padding: 2px;
+}
+#actionbar {
+  border: 1px solid #000;
+  border-radius: 12px;
+  margin-top: 120px;
+  width: 129px;
+  height: 30px;
+  margin-left: 90px;
+  text-align: center;
+  background-color:#000;
+  cursor:pointer;
+}
+
+#a1 {
+  color: black;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 0px;;
+}
+#t1 {
+	display: none;
+}
+#description {
+	color: #000;
+	font-size: 11px;
+	float: left;
+	margin-top: 26px;
+  font-weight: 600;
+}
+
+.Person:hover {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.Person:hover > .front {
+	display: none;
+}
+
+.rear {
+	display:none;
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	float: left;
+	margin: 15px;
+}
+
+.Person:hover>.rear {
+	display: block;
+}
+
+#edit_form{
+  width: 185px;
+  margin-left: -125px;
+  color: #000;
+  font-size: 16px;
+  margin-top: -11px;
+}

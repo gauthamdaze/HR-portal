@@ -1,0 +1,27 @@
+.team{
+  width: auto;
+      min-width: 245px;
+      max-width: 350px;
+      padding: 16px;
+      margin: 16px auto;
+      border: 1px solid darkslategray;
+      -webkit-box-shadow: 1px 0.5px 0.5px 0.5px lightskyblue;
+      box-shadow: 1px 0.5px 0.5px 0.5px darkslategrey;
+      text-align: center;
+      height: 250px;
+      margin: 15px;
+      display: inline-block;
+      font-family: sans-serif;
+      color: ghostwhite;
+      cursor: pointer;
+      margin-left: 30px;
+      background-color: cadetblue;
+}
+#img_div1{
+      font-size: 118px;
+      height: 120px;
+      color: darkslategray;
+      z-index: 999;
+      font-stretch: ultra-expanded;
+      opacity: .5;
+  }

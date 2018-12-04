@@ -1,0 +1,27 @@
+div#btn{
+  text-align: center;
+}
+
+div#btn button{
+  width: 120px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  background: #f78419;
+  border: 1px Solid #e97911;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+div#btn button i{
+  display: inline-block;
+  margin: 0 4px;
+}
+
+div#btn button:hover{
+  color: #fff;
+  background:#f78419 ;
+  opacity:0.8;
+}

@@ -1,0 +1,26 @@
+.add{
+  width: 420px;
+  background-color: #0d120d;
+  border-radius: 3px;
+  text-align: left;
+  margin-left: 400px;
+
+}
+input{
+  border-radius: 2px;
+  min-width: 20px;
+  float: right;
+  color:#000;
+}
+#submit_btn{
+
+  border-radius: 34px;
+    left: 141px;
+    position: relative;
+    position: relative;
+    font-size: 15px;
+    top: -11px;
+    color: black;
+
+
+}
